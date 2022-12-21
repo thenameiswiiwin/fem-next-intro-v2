@@ -6,4 +6,8 @@ const BlogHome = () => {
   );
 };
 
+export const generateStaticParams = async () => {
+  return [{ slug: 'hello-world' }, { slug: 'huy nguyen' }];
+};
+
 export default BlogHome;
